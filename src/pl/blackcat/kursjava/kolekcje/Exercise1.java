@@ -20,11 +20,7 @@ public class Exercise1 {
 			else
 				setWithNames.add(temp);
 		}
-		for (String item : setWithNames) {
-
-			System.out.println(item);
-
-		}
+		System.out.println("Ilość unikalnych imion: " + setWithNames.size());
 
 	}
 }
